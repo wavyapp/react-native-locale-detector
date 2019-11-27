@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license       = package["license"]
   s.summary       = package["description"]
   s.homepage      = package["homepage"]
-  s.source        = package["repository"] }
+  s.source        = s.source = { :git => 'https://github.com/wavyapp/react-native-locale-detector.git', :tag => s.version }
   s.requires_arc  = true
   s.preserve_paths= "package.json", "LICENSE"
   s.dependency 'React'
