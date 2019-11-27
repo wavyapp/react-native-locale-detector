@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license       = package["license"]
   s.summary       = package["description"]
   s.homepage      = package["homepage"]
-  s.source        = { :git => package["repository"]["url"] }
+  s.source        = package["repository"] }
   s.requires_arc  = true
   s.preserve_paths= "package.json", "LICENSE"
   s.dependency 'React'
