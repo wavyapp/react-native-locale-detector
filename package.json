@@ -11,5 +11,5 @@
   "license": "MIT",
   "author": "Dylan Vann <dylan.vann@gmail.com> (dylanvann.com)",
   "main": "index.js",
-  "repository": "DylanVann/react-native-locale-detector"
+  "repository": "wavyapp/react-native-locale-detector"
 }
